@@ -1,0 +1,23 @@
+[user]
+	name = Tim Crone
+	email = tjcrone@gmail.com
+
+[push]
+	default = simple
+
+[alias]
+	wdiff = diff --color-words
+	lg = "log --all --color --graph --pretty=format:'%C(cyan)%h%Creset -%C(128 black)%d%Creset %s %Cgreen(%cr) %C(blue)<%an>%Creset %C(236)%GK%Creset' --abbrev-commit"
+	caa = commit -a --amend -C HEAD
+
+[color "diff"]
+	meta = white bold
+	frag = blue bold
+	old = red bold
+	new = green bold
+
+[core]
+	pager = less -F -X
+
+[init]
+	defaultBranch = main
