@@ -1,0 +1,451 @@
+ls
+pwd
+ls
+ls -lat
+ll
+pwd
+whoami
+ls
+mkdir github
+cd github
+mkdir tjcrone
+mkdir rsignell-usgs
+cd rsignell-usgs/
+git clone https://github.com/rsignell-usgs/esip-gallery.git
+cd
+cd github/
+mkdir pangeo-gallery
+cd pangeo-gallery/
+git clone https://github.com/pangeo-gallery/physical-oceanography.git
+ll
+ls -lat
+ll
+pwd
+cd .ssh
+ssh-keygen
+ll
+cd .ssh
+ls
+cat id_rsa.pub
+ls
+cd bin
+find $PWD
+cd github/
+ls
+cd tjcrone/
+ls
+cd
+vim .vimrc
+ls -lat
+ls -la
+vim .bash_profile
+exit
+vim .bash_profile
+exit
+ls
+echo "alias ls='ls --color=auto'" > .bashrc
+exit
+ls
+vim .bashrc
+ls --color
+vim .bashrc
+exit
+ls
+rm .bashrc
+vim .bash_profile
+exit
+ls
+ls -lat
+ls
+cd conda
+ls
+cd
+ls
+clear
+ls
+exit
+ls
+clear
+ls
+rm Untitled.ipynb
+lt
+ls -lat
+exit
+exit
+ls
+ls
+ls --color=auto
+ls -lat
+ls
+ls -lat
+ls -lath
+echo "asdf"
+echo "alias ls='ls --color=auto'"
+echo "alias ls='ls --color=auto'"
+echo "alias ls='ls --color=auto'" > .bash_profile
+ls
+exit
+ll
+ls -lat
+ls -l
+ls
+ls -l
+ls -l
+touch myfile.txt
+ls -l
+echo "hello"
+echo "hello" > myfile.txt
+cat myfile.txt
+rm myfile.txt
+ls
+echo "hello " > myfile.txt
+cat myfile.txt
+cp myfile.txt asdf.txt
+ll
+ls
+ls -l
+ls -lt
+cat myfile.txt
+cp myfile.txt asdf.txt
+cp --help
+man cp
+cp --help
+ls
+myfile.txt
+cat myfile.txt
+cat myfile.txt >> asdf.txt
+cat asdf.txt
+ls
+mkdir Resume
+cd Resume/
+touch Readme.md
+ls
+lt
+ls -lt
+cat Readme.md
+git init
+ls -lat
+git status
+git add Readme.md
+git status
+git commit -am "Initial commit"
+git status
+git log
+git status
+ls
+whoami
+history
+history | grep ipynb
+pwd
+tree
+ls
+cd github
+tree
+cd
+pwd
+ls
+cd github
+pwd
+cd
+mkdir github
+cd
+ll
+ls -l
+cd shared-readwrite/
+cd
+ls
+touch myfile.txt
+ls -lat
+ls -l
+ls -lat
+ls -l
+ls -a
+vim .bash_profile
+/src
+ls
+cd /srv
+ls
+vim start
+ls
+cd
+ls
+lt
+vim .zshrc
+exit
+history > lecture08092022_history.txt
+vim lecture08092022_history.txt
+exit
+vim /srv/start
+lt
+ls -lat
+ls -lat .*
+find . -type f
+find . -type f -name ".*"
+find . -type f -name ".*" | grep bash
+cat .bash_profile
+rm .bash_profile
+lt
+ls -lat
+exit
+ls
+ll
+vim .gitconfig
+cat .bash_profile
+cat .gitconfig
+nano
+pico
+ls
+cd
+ls
+rm Untitled*
+history
+ll
+ls
+ll
+vim .bashrc
+ll
+exit
+ll
+cat asdf.txt
+rm asdf.txt
+rm lecture08092022_history.txt
+rm myfile.txt
+ll
+cd Resume/
+ls
+git status
+cd ../
+rm -rf Resume/
+cd github/tjcrone/
+ll
+ls
+git clone git@github.com:tjcrone/resume.git
+ssh-add
+eval `ssh-agent -s`
+ls
+cd resume/
+ls
+git status
+git lg
+ls
+vim ~/.gitconfig
+exit
+vim .gitconfig
+cd github/tjcrone/resume/
+git lg
+lt
+rm -rf .git
+rm .gitignore
+ll
+mv Readme.md README.md
+git init
+git status
+vim ~/.gitconfig
+rm -rf .git/
+git init
+git status
+git branch -m master main
+git log
+git add README.md
+git commit -m "Initial commit"
+git branch -m master main
+rm -rf .git/
+cd
+vim .bash_profile
+vim .bashrc
+ll
+pwd
+ll
+lt
+cd .ssh
+ls
+cd ../
+rm -rf .ssh
+ssh-keygen
+cd .ssh
+ll
+cat id_rsa.pub
+cd
+cat .ssh/id_rsa.pub
+cd github/tjcrone/resume/
+ls
+ll
+git status
+git init
+lt
+ls -lat
+rm -rf .git
+git status
+git init
+git log
+git add README.md tim-31b_crop1.jpg
+git status
+git show
+git commit -m "Initial commit"
+git lg
+git log
+git lg
+cd ../
+ls
+git clone git@github.com:tjcrone/qhub.git
+ls
+cd qhub/
+git log
+git lg
+cd ..
+ls
+cd resume/
+git lg
+git status
+git remote add origin git@github.com:tjcrone/resume.git
+git remote -v
+git remote set-url origin git@github.com:tjcrone/resume.git
+git remote -v
+git branch -M master
+git push -u origin master
+git status
+git diff
+git lg
+git commit -am "Update README.md"
+git status
+git lg
+echo ".ipynb_checkpoints" > .gitignore
+git status
+echo ".gitignore" >> .gitignore
+cat .gitignore
+git status
+git add .gitignore
+vim .gitignore
+cat .gitignore
+git status
+git add .gitignore
+git commit -m "Add .gitignore"
+git status
+ls
+git status
+git lg
+git push
+eval `ssh-agent -s`
+ssh-add
+git push
+git lg
+cd ../
+ls
+mkdir rces-lectures
+cd rces-lectures/
+ls
+git status
+git init
+git add python.ipynb
+git commit -m "Initial commit"
+git lg
+git status
+ls
+cd github/
+ls
+cd tjcrone/
+ls
+cd resume
+ls
+git status
+git lg
+cd ../
+ls
+mkdir rces-2022
+mv resume rces-2022/
+cd rces-lectures/
+ls
+git status
+lt
+git diff
+ls
+lt
+cp python.ipynb ../rces-2022/
+cd ../rces-2022/
+exit
+vim .bash_history
+exit
+lt
+ls
+ll
+cd github/tjcrone/rces-2022/
+ll
+mkdir history
+cd history/
+history > bash_history
+cat bash_history
+cd ../
+ls
+mkdir lectures
+ls
+mkdir dotfiles
+ll
+mv ~/bashrc dotfiles/
+mv ~/gitconfig dotfiles/
+mv ~/bash_profile dotfiles/
+cd
+ll
+lt
+cd github/tjcrone/rces-
+cd github/tjcrone/rces-2022/
+l
+ll
+git status
+git init
+git status
+cd dotfiles/
+lt
+vim gitconfig
+vim bashrc
+ll
+mv bash_profile .bash_profile
+mv bashrc .bashrc
+mv gitconfig .gitconfig
+ll
+lt
+cd ../
+ls
+mv python.ipynb lectures/
+ls
+exit
+cd github/tjcrone/
+ll
+diff rces-lectures/python.ipynb rces-2022/lectures/python.ipynb
+cd rces-lectures/
+git status
+git lg
+cd ../rces-2022/
+l
+ll
+cd lectures/
+ls
+vim python.ipynb
+ll
+vim python_fundamentals.ipynb
+rm python.ipynb
+ll
+ls
+git status
+git add python_fundamentals.ipynb
+git commit -a "Initial commit"
+git commit -m "Initial commit"
+git lg
+ll
+cd ../
+ls
+cd history/
+ls
+git add bash_history
+cat bash_history
+git status
+git restore --staged bash_history
+history | awk '{$1="";print substr($0,2)}'
+history | awk '{$1="";print substr($0,2)}' > bash_history
+vim bash_history
+vim ~/.bash_history
+exit
+cd github/tjcrone/rces-2022/
+ll
+cd history/
+history
+history | awk '{$1="";print substr($0,2)}' > bash_history
