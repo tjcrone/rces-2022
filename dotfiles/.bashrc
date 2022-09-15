@@ -114,3 +114,7 @@ if ! shopt -oq posix; then
 fi
 
 NAME=`whoami | cut -d'@' -f1`
+
+# matlab-like history completion
+bind '"\e[A"':history-search-backward
+bind '"\e[B"':history-search-forward
