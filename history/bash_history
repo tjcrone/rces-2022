@@ -449,3 +449,194 @@ ll
 cd history/
 history
 history | awk '{$1="";print substr($0,2)}' > bash_history
+lt
+git add bash_history
+git status
+git commit -m "Add bash_history file"
+cd ../dotfiles/
+lt
+git add .
+git commit -m "Add dotfiles"
+cd ../resume/
+ll
+lt
+rm -rf .git
+cat .gitignore
+mv .gitignore ../
+lt
+git add .
+git commit -m "Add resume files"
+cd ../
+ll
+git status
+git add .gitignore
+git commit -m "Add .gitignore"
+git status
+git lg
+cd history/
+cat bash_history
+cd ../
+git clone git@github.com:tjcrone/asdf.git
+cd asdf/
+ls
+cat LICENSE
+cp LICENSE ../rces-2022/
+cd ../
+rm -rf asdf
+ls
+cd rces-lectures/
+lt
+diff python.ipynb ../rces-2022/lectures/python_fundamentals.ipynb
+git lg
+cd ../
+rm -rf rces-lectures
+cd rces-2022/
+ll
+git lg
+git status
+git add LICENSE
+git commit -am "Add license file"
+git status
+git commit
+vim ~/.gitconfig
+git status
+git --version
+git status
+git lg
+git branch -m main
+git status
+git lg
+ls
+find . -type f
+find . -type f | xargs grep master
+git status
+git lg
+git remote add origin git@github.com:tjcrone/rces-2022.git
+git remote -v
+git branch -M main
+git push -u origin main
+cd ../
+git clone git@github.com:tjcrone/dotfiles.git
+vim dotfiles/.bashrc
+cd rces-2022/dotfiles/
+ls
+exit
+eval `ssh-agent -s`
+ssh-add
+cd
+cd github/tjcrone/rces-2022/
+ll
+git status
+git diff
+git commit -am "Add search completion to .bashrc"
+git status
+ll
+cd
+ll
+cd github/
+ll
+cd tjcrone/
+ll
+cd rces-2022/
+ll
+vim README.md
+git status
+cat README.md
+git add README.md
+git commit -m "Add README.md"
+git push
+ls
+git status
+git diff
+git status
+git diff
+git lg
+git status
+git commit -am "Update notebook format"
+git add .
+git status
+git commit -am "Add functions and classes lecture"
+git lg
+git push
+git lt
+git lg
+git status
+git diff
+git commit -am "Add advanced git video"
+git push
+exit
+cd github/tjcrone/rces-2022/
+ll
+git status
+git diff
+git commit -am "Add link to office hours poll"
+git push
+tree
+tree --help
+tree -L1
+tree -L 1
+tree -L 2
+tree -L2
+clear
+tree -L2
+tree -L 2
+clear
+tree -L 2
+clear
+tree -L 2
+cd github/tjcrone/
+ll
+cd rces-2022/
+ll
+cd history/
+ll
+cat bash_history
+grep ssh bash_history
+cd
+ls
+cd github/tjcrone/rces-2022/
+ll
+git status
+cd lectures/
+git diff python_fundamentals.ipynb
+git commit -am "Update lecture files"
+git lg
+git push
+git status
+git lg
+git pull
+cd ../
+ll
+mkdir ~/newdir
+mv rces-2022 ~/newdir/
+cd ~/newdir/
+ll
+cd rces-2022/
+ls
+ll
+git status
+git lg
+lt
+cd ../
+mv rces-2022 ../github/tjcrone/
+cd ../
+rmdir newdir/
+ll
+cd github/tjcrone/
+ll
+cd rces-2022/
+history | awk '{$1="";print substr($0,2)}' >> history/bash_history
+cd history/
+git status
+git diff
+history | awk '{$1="";print substr($0,2)}' >> history/bash_history:q
+git status
+git diff
+history | awk '{$1="";print substr($0,2)}' >> bash_history
+git status
+git diff
+git status
+git lg
+git checkout bash_history
+git status
+history | awk '{$1="";print substr($0,2)}' > bash_history
