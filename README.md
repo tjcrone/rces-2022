@@ -1,8 +1,16 @@
 # RCES 2022
 
-## Office Hours Poll
 
-[https://calendly.com/d/dz6-cgz-bbw/instructor-office-hours?month=2022-09&date=2022-09-19](https://calendly.com/d/dz6-cgz-bbw/instructor-office-hours?month=2022-09&date=2022-09-19)
+## Extra Credit #1
+
+**Important: Please do this assignment on your own!**
+
+Create a new notebook and use Cartopy along with [Jupyter Widgets](https://ipywidgets.readthedocs.io/en/stable/index.html) to generate an interactive map of hurricane data this:
+
+![Hurricane Tracks](extra_a/hurricanes.gif)
+
+Use the data that we used in the Pandas Groupby homework assignment.
+
 
 ## Links
 
