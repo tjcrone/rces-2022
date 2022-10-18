@@ -6,7 +6,7 @@
 
 Create a new notebook and use Cartopy along with [Jupyter Widgets](https://ipywidgets.readthedocs.io/en/stable/index.html) (interact module) to generate an interactive map of hurricane data like this:
 ![Hurricane Tracks](extra_a/hurricanes.gif)
-Use the data that we used in the Pandas Groupby homework assignment.
+No need to generate an animated GIF like this one, just have a working slider widget like the one I showed in class. Use the data that we used in the Pandas Groupby homework assignment.
 
 ## Links
 
